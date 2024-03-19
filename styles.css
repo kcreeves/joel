@@ -1,0 +1,44 @@
+body {
+    background-color: #ffc8dd;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .placeholders{
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  margin: auto;
+  width: 50%;
+  }
+  
+  .click{
+  display: flex;
+  margin: auto;
+  }
+  
+  img{
+  width: 350px;
+  height: 425px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  }
+  
+  li{
+  color: #FFFFFF;
+  }
+
+  input{
+margin-bottom: 5px;
+  }
+
+  .click{
+    margin-top: 15px;
+      }
+
+  .result{
+    text-align: center;
+      }
