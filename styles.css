@@ -33,12 +33,28 @@ body {
 
   input{
 margin-bottom: 5px;
+height: 50px;
   }
 
   .click{
+    display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  height: 105px;
+  margin: auto;
+  width: 50%;
+	border: .2em solid #000000;
+	padding: 2.3em 2.3em;
+	color: #000000;
+	border-radius: 2em;
     margin-top: 15px;
+    font-size: 13.25pt;
       }
 
   .result{
     text-align: center;
+      }
+
+      .click:hover {
+        filter: brightness(80%);
       }
